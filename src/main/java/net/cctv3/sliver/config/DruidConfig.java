@@ -1,4 +1,4 @@
-package cctv3.net.sliver.config;
+package net.cctv3.sliver.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;

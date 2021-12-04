@@ -21,11 +21,15 @@ spring:
     test-while-idle: true
     test-on-borrow: false
     test-on-return: false
-    # 打开PSCache，并且指定每个连接上PSCache的大小
+    # 打开 PSCache，并且指定每个连接上PSCache的大小
     pool-prepared-statements: true
-    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    # 配置监控统计拦截的 Filters，去掉后监控界面 SQL 无法统计，'wall'用于防火墙
     max-pool-prepared-statement-per-connection-size: 20
     filters: stat, wall
     use-global-data-source-stat: true
-    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    # 通过 ConnectProperties 属性来打开 mergeSql功能；慢 SQL 记录
     connect-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml

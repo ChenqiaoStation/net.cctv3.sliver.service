@@ -1,4 +1,4 @@
-package cctv3.net.sliver.xUtils;
+package net.cctv3.sliver.xUtils;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.httpclient.*;

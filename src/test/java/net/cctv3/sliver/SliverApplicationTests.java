@@ -1,6 +1,6 @@
-package cctv3.net.sliver;
+package net.cctv3.sliver;
 
-import cctv3.net.sliver.xUtils.HttpClientUtils;
+import net.cctv3.sliver.xUtils.HttpClientUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

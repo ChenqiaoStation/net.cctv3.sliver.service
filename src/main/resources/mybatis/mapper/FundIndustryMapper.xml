@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.cctv3.sliver.mapper.FundIndustryMapper">
+    <insert id="insertFundIndustry" useGeneratedKeys="false" keyProperty="id">
+        insert into tb_fund_industry(name, description, deleted, create_time, delete_time)
+        values (#{name}, #{description}, #{deleted}, #{create_time}, #{delete_time})
+    </insert>
+</mapper>

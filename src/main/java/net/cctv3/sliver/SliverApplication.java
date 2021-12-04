@@ -1,4 +1,4 @@
-package cctv3.net.sliver;
+package net.cctv3.sliver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package cctv3.net.sliver.xUtils;
+package net.cctv3.sliver.xUtils;
 
 import org.apache.commons.codec.binary.Base64;
 
